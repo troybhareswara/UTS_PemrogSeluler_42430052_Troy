@@ -18,7 +18,8 @@ Aplikasi ini dibangun untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pem
 ### 1. Halaman Login (Responsif)
 | Mode Portrait | Mode Landscape |
 | :---: | :---: |
-| ![Login Portrait]() | ![Login Landscape](isi_link_gambar_disini) |
+| ![Login Portrait](https://github.com/troybhareswara/UTS_PemrogSeluler_42430052_Troy/blob/main/screenshots/Screenshot%202026-03-14%20at%2019.11.33.png?raw=true) | 
+![Login Landscape](isi_link_gambar_disini) |
 
 ### 2. Halaman Panel Generator
 | Input Data | Hasil Generate (If-Else & Loop) |
