@@ -24,4 +24,5 @@ Aplikasi ini dibangun untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pem
 ### 2. Halaman Panel Generator
 | Input Data | Hasil Generate (If-Else & Loop) |
 | :---: | :---: |
-| ![Panel Input](isi_link_gambar_disini) | ![Panel Output](isi_link_gambar_disini) |
+| ![Panel Input](https://github.com/troybhareswara/UTS_PemrogSeluler_42430052_Troy/blob/main/screenshots/Screenshot%202026-03-14%20at%2019.11.33.png?raw=true) |
+![Panel Output](https://github.com/troybhareswara/UTS_PemrogSeluler_42430052_Troy/blob/main/screenshots/Screenshot%202026-03-14%20at%2019.12.17.png?raw=true) |
