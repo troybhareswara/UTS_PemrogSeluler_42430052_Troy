@@ -1,60 +1,26 @@
-# UTS_PemrogSeluler_42430052_Troy
-## Aplikasi Generator Lembar Penilaian
+# UTS Pemrograman Seluler - Aplikasi Generator Lembar Penilaian
 
-### CARA IMPORT KE ANDROID STUDIO
-=====================================================
+## Identitas Mahasiswa
+- **Nama Lengkap:** Gede Troy Wiswama Bhareswara
+- **NIM:** 42430052
+- **Program Studi:** Teknologi Informasi
 
-1. Extract file ZIP ini ke folder mana saja di komputer kamu
-   (misal: D:\AndroidProjects\UTS_PemrogSeluler_42430052_Troy)
+## Deskripsi Aplikasi
+Aplikasi ini dibangun untuk memenuhi Ujian Tengah Semester (UTS) mata kuliah Pemrograman Seluler. Aplikasi ini mendemonstrasikan penguasaan materi paruh pertama semester, meliputi:
+1. **Modul 2 & 3:** Desain UI/UX dan penerapan Layout Responsif (beradaptasi saat Portrait dan Landscape menggunakan folder layout-land).
+2. **Modul 4:** Navigasi multi-layar dan Data Passing menggunakan Intent (Mengirim data input dosen ke halaman panel).
+3. **Modul 5:** Implementasi Control Flow:
+   - Menggunakan percabangan If-Else untuk menentukan status kelas.
+   - Menggunakan perulangan For Loop untuk mencetak daftar absen/lembar penilaian secara otomatis.
 
-2. Buka Android Studio
+## Screenshot Aplikasi
 
-3. Klik "Open" (bukan New Project)
+### 1. Halaman Login (Responsif)
+| Mode Portrait | Mode Landscape |
+| :---: | :---: |
+| ![Login Portrait]() | ![Login Landscape](isi_link_gambar_disini) |
 
-4. Arahkan ke folder hasil extract tadi, lalu klik "OK"
-
-5. Tunggu Gradle Sync selesai (bisa 2-5 menit tergantung koneksi)
-   - Jika muncul popup "Gradle Sync", klik "OK" / "Sync Now"
-
-6. Setelah sync selesai, klik tombol RUN ▶ (Shift+F10)
-
-7. Pilih emulator atau sambungkan HP Android dengan USB Debugging aktif
-
-### STRUKTUR FILE
-=====================================================
-app/src/main/
-├── AndroidManifest.xml
-├── java/com/troy/utspemrogseluler/
-│   ├── MainActivity.kt         ← Form input utama
-│   └── DetailActivity.kt       ← Hasil penilaian
-└── res/
-    ├── layout/
-    │   ├── activity_main.xml   ← Layout portrait
-    │   └── activity_detail.xml ← Layout detail
-    ├── layout-land/
-    │   └── activity_main.xml   ← Layout landscape (2 kolom)
-    ├── values/
-    │   ├── strings.xml
-    │   └── themes.xml
-    └── drawable/
-        ├── circle_bg.xml
-        ├── ic_arrow_back.xml
-        └── ic_launcher_foreground.xml
-
-### FITUR APLIKASI
-=====================================================
-- Form input: Nama, NIM, Nilai Kehadiran, Tugas, UTS
-- Validasi input (field kosong & range nilai 0-100)
-- UI Responsif: Portrait (vertikal) & Landscape (2 kolom)
-- Intent: Kirim data dari MainActivity ke DetailActivity
-- If-Else: Rata-rata > 75 = LULUS, selainnya = REMEDIAL
-- For Loop: Generate 5 baris absensi otomatis
-- ScrollView pada halaman detail
-
-### INFORMASI PROJECT
-=====================================================
-Nama Project : UTS_PemrogSeluler_42430052_Troy
-Package      : com.troy.utspemrogseluler
-Min SDK      : API 24 (Android 7.0)
-Target SDK   : API 34 (Android 14)
-Language     : Kotlin
+### 2. Halaman Panel Generator
+| Input Data | Hasil Generate (If-Else & Loop) |
+| :---: | :---: |
+| ![Panel Input](isi_link_gambar_disini) | ![Panel Output](isi_link_gambar_disini) |
